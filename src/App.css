@@ -156,7 +156,7 @@ label{
 
 
 .sidebar-list-item:hover {
-  background-color: #3D8CFF;
+  background-color: #4070FF;
   cursor: pointer;
 }
 /* #light .sidebar-list-item:hover {
@@ -315,7 +315,7 @@ label{
     display: none;
   }
 
+}
+
 
   
-
-}

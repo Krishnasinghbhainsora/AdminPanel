@@ -4,7 +4,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import Home from "./Home";
 import ReactSwitch from "react-switch";
-// import { ReactSwitch } from "react-icons/rx";
+
 
 export const ThemeContext = createContext(null);
 
@@ -15,7 +15,7 @@ function App() {
     setOpenSidebarToggle(!openSidebarToggle);
   };
 
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };

@@ -96,8 +96,10 @@ const data =[
                 <YAxis />
                 <Tooltip />
                 <Legend />
+                <Bar dataKey="name"  fill="#B48DD3" />
                 <Bar dataKey="students"  fill="#FFA755" />
                 <Bar dataKey="fees" fill="#76E674" />
+
                 </BarChart>
             </ResponsiveContainer>
 
@@ -118,8 +120,10 @@ const data =[
                 <YAxis />
                 <Tooltip  />
                 <Legend />
+                <Line type="monotype" dataKey="name"  stroke="#B48DD3" activeDot={{ r: 8 }}/>
                 <Line type="monotone" dataKey="students" stroke="#FFA755" activeDot={{ r: 8 }} />
                 <Line type="monotone" dataKey="fees" stroke="#76E674" activeDot={{ r: 8 }} />
+                
                 </LineChart>
             </ResponsiveContainer>
 

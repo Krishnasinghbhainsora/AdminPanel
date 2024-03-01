@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BsCart3,
+  
   BsGrid1X2Fill,
   BsFillArchiveFill,
   BsFillGrid3X3GapFill,
@@ -33,7 +33,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         </li>
         <li className="sidebar-list-item">
           <a href="#">
-            {/* <BsFillArchiveFill className="icon" /> Products */}
+            
             <BsFillGrid3X3GapFill className="icon" /> Categories
 
           </a>
